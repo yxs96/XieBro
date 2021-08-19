@@ -1,9 +1,9 @@
 ## 二叉树刷题
-- 快速排序相单于二叉树的前序遍历 
-- 归并排序相当于二叉树的后序遍历 
+1.快速排序相单于二叉树的前序遍历  
+2.归并排序相当于二叉树的后序遍历 
 
 ### 226.翻转二叉树
-'''C++
+```C++
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -29,8 +29,9 @@ public:
         invertTree(root->right);
 
         return root;
+    }
 };
-'''
+```
 
 
 
